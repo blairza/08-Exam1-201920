@@ -3,8 +3,8 @@ Exam 1, problem 2.
 
 Authors: David Mutchler, Vibha Alangar, Matt Boutell, Dave Fisher,
          Mark Hays, Amanda Stouder, Aaron Wilkin, their colleagues,
-         and PUT_YOUR_NAME_HERE.
-"""  # TODO: 1. PUT YOUR NAME IN THE ABOVE LINE.
+         and Zane Blair.
+"""  # DONE: 1. PUT YOUR NAME IN THE ABOVE LINE.
 
 
 def main():
@@ -41,6 +41,41 @@ def test_factor_sum():
     print('Testing the   factor_sum   function:')
     print('---------------------------------------------------------')
 
+    #Test 1
+    expected = 11
+    actual = factor_sum(28)
+    print()
+    print('Expected:',expected)
+    print('Actual', actual)
+
+    # Test 2
+    expected = 4
+    actual = factor_sum(25)
+    print()
+    print('Expected:', expected)
+    print('Actual', actual)
+
+    # Test 3
+    expected = 7
+    actual = factor_sum(4)
+    print()
+    print('Expected:', expected)
+    print('Actual', actual)
+
+    # Test 4
+    expected = 10
+    actual = factor_sum(12)
+    print()
+    print('Expected:', expected)
+    print('Actual', actual)
+
+    # Test 5
+    expected = 4
+    actual = factor_sum(9)
+    print()
+    print('Expected:', expected)
+    print('Actual', actual)
+
     ###########################################################################
     # WRITE YOUR TESTS BELOW HERE:
     ###########################################################################
@@ -66,7 +101,7 @@ def factor_sum(n):
       -- and the sum of those numbers is   1 + 5 + 25,
              which is 31
       -- and the sum of the digits of 31 is 4,
-    so this function returns 4 when n is 28.
+    so this function returns 4 when n is 25.
 
        *** ASK FOR AN EXPLANATION IF YOU DO NOT UNDERSTAND THE ABOVE. ***
     """
